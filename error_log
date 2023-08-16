@@ -1,0 +1,2 @@
+[15-Aug-2023 04:33:09 America/Guayaquil] PHP Deprecated:  Using php-function "implode" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier. in /home4/digit554/public_html/vendor/smarty/smarty/libs/sysplugins/smarty_internal_compile_private_modifier.php on line 112
+[15-Aug-2023 23:41:15 America/Guayaquil] PHP Deprecated:  The hook "createAccount" is deprecated, please use "actionCustomerAccountAdd" instead in module "statsdata". in /home4/digit554/public_html/classes/Hook.php on line 868
