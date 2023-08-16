@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/digit554/public_html/
+    - /bin/rsync -av prestashopjv/ $DEPLOYPATH
