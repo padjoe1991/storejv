@@ -2,6 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/digit554/public_html/
+    - cd /home4/digit554/repositories/storejv
     - /usr/bin/git pull origin main
     - /bin/chmod -R 755 $DEPLOYPATH
     - /bin/chown -R digit554:digit554 $DEPLOYPATH
